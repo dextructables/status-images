@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+     RewriteEngine on
+
+     RewriteCond %{REQUEST_FILENAME} !-f
+     RewriteCond %{REQUEST_FILENAME} !-d
+
+     RewriteRule ^proyectos/(\d+)/status.png$ get_status_image.php?proyecto=$1
+</IfModule>

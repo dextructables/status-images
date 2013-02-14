@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<proyectos>
+	<proyecto id="1254" status="pass">XML Parser</proyecto>
+	<proyecto id="3846" status="fail">Image Cropper</proyecto>
+	<proyecto id="1674" status="warning">Mail Sender</proyecto>
+</proyectos>
